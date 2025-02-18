@@ -1,0 +1,72 @@
+/* Dashboard.css */
+
+
+.app-container {
+  background-color: #f0f4f8;
+  min-height: 100vh;
+  color: #333;
+  padding: 16px;
+}
+
+.app-bar {
+  background-color: #1e88e5;
+}
+
+.search-field {
+  background-color: #e3f2fd;
+  border-radius: 4px;
+}
+
+.search-icon {
+  color: #1e88e5;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  margin-left: 16px;
+}
+
+.menu-item {
+  padding: 16px;
+  margin-bottom: 8px;
+  background-color: #bbdefb;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.menu-item:hover {
+  background-color: #1e88e5;
+  color: white;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 16px;
+}
+
+.card-header {
+  color: #1e88e5;
+}
+
+.card-content {
+  padding: 16px;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 16px;
+}
+
+.card-footer .value {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.card-footer .percentage {
+  color: #388e3c;
+  font-size: 14px;
+}
